@@ -2,7 +2,7 @@ const { Router } = require("express");
 const authController = require("../controllers/auth.controller");
 const middleware = require("../middlewares/auth.middleware");
 const authRouter = Router();
-let num = 10;
+let num = 11;
 /**
  * @route POST /api/auth/register
  * @description Register a new user
